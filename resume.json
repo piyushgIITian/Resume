@@ -1,0 +1,171 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "work": "My Internship Experiences",
+    "projects": "My Projects",
+    "awards": "My Achievements ",
+    "skills": "My Skill Set",
+    "education": "My Education"
+  },
+  "basics": {
+    "name": "Piyush Gautam",
+    "email": "piyushgautamtg@gmail.com",
+    "phone": "9820197246",
+    "location": {
+      "address": "Bengaluru India"
+    },
+    "website": "https://github.com/piyushgIITian"
+  },
+  "education": [
+    {
+      "institution": "IIT Kharagpur",
+      "location": "West Bengal",
+      "startDate": "July 2019",
+      "endDate": "May 2024",
+      "gpa": "8.1",
+      "studyType": "M.Tech/B.Tech Dual Degree",
+      "area": "Engineering Product Design"
+    },
+    {
+      "institution": "Sri Chaitanya",
+      "location": "Hyderabad",
+      "studyType": "Secondary Education",
+      "area": "Science",
+      "gpa": "96%",
+      "startDate": "April 2017",
+      "endDate": "May 2019"
+    }
+  ],
+  "work": [
+    {
+      "company": "Flamapp",
+      "location": "Bengaluru, India",
+      "website": "",
+      "startDate": "Jan 2023",
+      "highlights": [
+        "Created database on amazon s3, for training a VIT for image recognition(augmentations, refining, triplet formation, etc.)",
+        "Worked on creating a avatar creation tool with features like body type selection, clothes selection, texture selection, body shape modifications., and various other cool features.",
+        "Integrated stable diffusion to the avatar system for creating textures on the go. Also deployed model on Amazon ECS..",
+        "Key Takeaways: Blender, Unity3D, Godot, AWS: S3, Lambda, EC2, ECS, Sagemaker "
+      ],
+      "endDate": "Present",
+      "position": "Software Engineer"
+    },
+    {
+      "highlights": [
+        "Worked on creating a cloud image recognition architecture that scans an image in from live camera and searches it in the database (containing over 100 million images) in seconds, and then augments a corresponding video over that image in the scanner application. This is similar to Vuforia in Unity3D",
+        "Created a pattern generation algorithm containing n different shapes based on user input. Also worked on creating a custom scannable code like qr code,snaptag,etc.",
+        "Key Takeaways: Deep Learning, Computer Vision, C++ architecture, CUDA for model training, Cmake, Python libraries including OpenCV, Pillow, Scikit-learn, etc."
+      ],
+      "company": "Flamapp",
+      "position": "Computer Vision Engineer",
+      "location": "Bengaluru India",
+      "startDate": "Jan 2022",
+      "endDate": "June 2022"
+    },
+    {
+      "highlights": [
+        "Developed games for computer graphics lab and published them on Google Play Store. Used Unity 3D game engine and developed platformer and 3D games.",
+        "Developed a 2D platformer game using Unity 2D engine, with asset designing using Adobe Illustrator and game coding using C#. Also developed a 3D game using simple free body dynamics and low-poly world design with baked lighting for performance optimization."
+      ],
+      "company": "Computer Graphics Lab IITKGP",
+      "position": "Game Developer (Unity3D)",
+      "location": "IIT Kharagpur",
+      "startDate": "Sep 2019 ",
+      "endDate": "Apr 2020"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "C/C++",
+        "C#",
+        "HTML/CSS/JS",
+        "Python"
+      ],
+      "name": "Programming Languages"
+    },
+    {
+      "keywords": [
+        "Image Transformers",
+        "GANs",
+        "CNNs",
+        "NLP ",
+        "Diffusers"
+      ],
+      "name": "Machine Learning"
+    },
+    {
+      "keywords": [
+        "ExpressJs",
+        "ReactJs",
+        "NodeJs",
+        "NextJs",
+        "Flask",
+        "Django",
+        "MongoDb",
+        "PostgreSQL",
+        "ThreeJs"
+      ],
+      "name": "Full Stack Web Developement"
+    },
+    {
+      "keywords": [
+        "Adobe Photshop",
+        "Blender",
+        "Adobe Illustrator",
+        "Figma",
+        "Spline"
+      ],
+      "name": "Design"
+    },
+    {
+      "keywords": [
+        "Unity3D",
+        "Godot"
+      ],
+      "name": "Game Developement"
+    }
+  ],
+  "projects": [
+    {
+      "name": "RShifts WebApp",
+      "description": "A full stack website with various functionalities such as user login/signup, user dashboard, subscription and much more. Designed the website using Figma keeping UI/UX rules in mind. Used Firebase for authentication and ExpressJs, Mongodb to maintain user database .",
+      "url": "https://rshifts-testweb.vercel.app/",
+      "keywords": [
+        "mern stack",
+        "firebase"
+      ]
+    },
+    {
+      "keywords": [
+        "Stable baselines",
+        "Nes_py",
+        "Python"
+      ],
+      "description": "Trained Proximal Policy Optimization model to play super mario bros. Used stable baselines for PPO and gym for super mario python environment. Results: After 10,000 trials my model was able to complete first level.",
+      "name": "OpenAI Gym",
+      "url": "https://github.com/piyushgIITian/ML_Projects"
+    }
+  ],
+  "awards": [
+    {
+      "date": "",
+      "awarder": "",
+      "summary": "Stood top 2% amongst, 200k students that appeared in JEE Advanced 2019 [AIR 4558] "
+    },
+    {
+      "summary": "Received Gold Medals in National Science Olympiad 2017 and 2015 and International Mathematical Olympiad 2017"
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "education",
+    "work",
+    "skills",
+    "projects",
+    "awards"
+  ]
+}
